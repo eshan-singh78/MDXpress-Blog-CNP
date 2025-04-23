@@ -73,6 +73,3 @@ Crafted by [Eshan Singh](mailto:eshan.singh.04.dev@gmail.com), a full-stack deve
 ---
 
 > Looking to contribute, request features, or report issues? Feel free to open a PR or issue!
-```
-
----
