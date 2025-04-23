@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/styles/style.css" />
+</head>
+<body>
+  <button class="theme-toggle" onclick="toggleDarkMode()">🌓 Toggle Theme</button>
+  <button class="navigate-btn" onclick="location.href='/blog'">Blogs</button>
+
+  <div class="content">
+    {{content}}
+  </div>
+
+  <footer>Powered by <strong>mdxpress</strong></footer>
+
+  <script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('dark-mode');
+    }
+
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+      const theme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+      localStorage.setItem('theme', theme);
+    }
+  </script>
+</body>
+</html>

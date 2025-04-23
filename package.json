@@ -1,0 +1,27 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/mdxpress-blog-dev-deploy.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "name": "mdxpress-blog-dev-deploy",
+  "version": "1.0.0",
+  "description": "Lightweight Blog Platform for Automatic Markdown Rendering",
+  "main": "core3.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["blog", "markdown", "static"],
+  "author": "Your Name",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yourusername/mdxpress-blog-dev-deploy/issues"
+  },
+  "homepage": "https://github.com/yourusername/mdxpress-blog-dev-deploy#readme",
+  "dependencies": {
+    "marked": "^4.0.0",
+    "@vercel/node": "^2.15.10"
+  }
+}
