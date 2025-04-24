@@ -1,6 +1,6 @@
 # 🚀 MDXpress Blog - CNP (Compiled N' Portable)
 
-**MDXpress Blog - CNP** is a serverless-friendly version of the original [MDXpress Blog](https://github.com/eshansingh/mdxpress-blog), reworked to deploy seamlessly on platforms like **Vercel** using **Serverless Functions**.
+**MDXpress Blog - CNP** is a serverless-friendly version of the original [MDXpress Blog](https://github.com/eshan-singh78/MDXpress-Blog/), reworked to deploy seamlessly on platforms like **Vercel** using **Serverless Functions**.
 
 It’s a markdown-powered, minimal blogging platform that compiles content on-the-fly without any backend server, database, or complex setup.
 
@@ -39,7 +39,7 @@ mdxpress-blog-cnp/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/MDXpress-Blog-CNP.git
+   git clone https://github.com/eshan-singh78/MDXpress-Blog
    cd MDXpress-Blog-CNP
    ```
 
